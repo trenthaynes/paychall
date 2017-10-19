@@ -1,0 +1,11 @@
+<div class="col-xs-12">
+  <div *ngIf="employee">
+    <h2>{{employee.fullName}}</h2>
+    <div class="col-xs-8">
+      <app-benefitdependent (notify)='onNotify($event)'></app-benefitdependent>
+    </div>
+    <div class="col-xs-4">
+      <app-runningtotal [electionCount]="electionCount"></app-runningtotal>
+    </div>
+  </div>
+</div>

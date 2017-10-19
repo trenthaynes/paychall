@@ -1,0 +1,6 @@
+<select class="form-control" name="employee" (ngModelChange)="onChange($event)" [(ngModel)]="employee">
+  <option value="" disabled>Select an employee</option>
+  <option *ngFor="let emp of employees" [ngValue]="emp">
+    {{ emp.fullName }}
+  </option>
+</select>
