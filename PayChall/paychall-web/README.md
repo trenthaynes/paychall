@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.8.
 
+After you run `npm install`, you can run `npm run startboth` to launch both the .Net Core 2.0 WebApi instance, and the Angular CLI based web app.  `npm run startnet` will launch just the web api.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
